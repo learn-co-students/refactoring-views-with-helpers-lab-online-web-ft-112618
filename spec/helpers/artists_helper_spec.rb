@@ -1,5 +1,9 @@
 require 'rails_helper'
 
+RSpec.configure do |config|
+  config.color = true
+end
+
 RSpec.describe ArtistsHelper, type: :helper do
 
   before do
